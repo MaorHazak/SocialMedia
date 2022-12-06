@@ -15,7 +15,7 @@ const categories = [
   {name: 'Coding'},
 ]
 
-const Sidebar = (user, closeToggle) => {
+const Sidebar = ({user, closeToggle}) => {
   const handleCloseSidebar = () => {
     if(closeToggle) closeToggle(false);
   }
